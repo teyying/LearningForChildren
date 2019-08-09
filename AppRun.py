@@ -10,10 +10,9 @@ Description		: 这是用PyQt5编写的帮助儿童学习汉字,英语,数学算�
 Pending Problem : 目前没有困难问题
 Next Step       : 1.margin可以折叠垂直元素,是否可以做一个指定显示几个按钮的效果.
 """
-# 主界面和子界面逻辑介绍可在ReadMe.txt中查看
 
 from sys import argv
-from PyQt5.QtCore import Qt, QEvent
+from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap, QFont
 from PyQt5.QtWidgets import (QApplication, QSplashScreen)
 
