@@ -1,0 +1,132 @@
+#Main {
+    background-color: #1FC7FD;
+}
+
+#Main QPushButton {
+    background-color: transparent;
+    border: none;
+}
+
+#Main QPushButton[titleBar="avatar"] {
+    border-radius: 3px;
+    background-color: #f5f5f5;
+}
+
+#Main QPushButton[titleBar="normal"], #Main QPushButton[titleBar="close"] {
+    border-left: 1px solid lightgray;
+}
+
+#Main QPushButton[titleBar="avatar"]:hover {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.1,
+    x2: 0.5,
+    y2: 0.5,
+    stop: 0 rgb(200, 200, 200),
+    stop: 1 #f5f5f5);
+}
+
+#Main QPushButton[titleBar="avatar"]:pressed {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.1,
+    x2: 0.5,
+    y2: 1,
+    stop: 0 #f5f5f5,
+    stop: 1 rgb(200, 200, 200));
+}
+
+#Main QPushButton[titleBar="normal"]:hover {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.1,
+    x2: 0.5,
+    y2: 1,
+    stop: 0 rgba(255, 255, 255, 150),
+    stop: 1 rgba(255, 255, 255, 0));
+}
+
+#Main QPushButton[titleBar="normal"]:pressed {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.1,
+    x2: 0.5,
+    y2: 1,
+    stop: 0 rgba(255, 255, 255, 0),
+    stop: 1 rgba(255, 255, 255, 150));
+}
+
+#Main QPushButton[titleBar="close"]:hover {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.1,
+    x2: 0.5,
+    y2: 1,
+    stop: 0 rgba(255, 0, 0, 150),
+    stop: 1 rgba(255, 255, 255, 0));
+}
+
+#Main QPushButton[titleBar="close"]:pressed {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.1,
+    x2: 0.5,
+    y2: 1,
+    stop: 0 rgba(255, 255, 255, 0),
+    stop: 1 rgba(255, 0, 0, 150));
+}
+
+QWidget#Main QWidget#widHello {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.1,
+    x2: 0.5,
+    y2: 0.3,
+    stop: 0 rgba(237, 246, 255, 150),
+    stop: 1 rgba(237, 246, 255, 250));
+}
+
+QWidget#Main #stkWid {
+    background-color: rgb(237, 246, 255);
+}
+
+QWidget#Main QWidget#stkWid QPushButton {
+    border-radius: 5px;
+    border: 2px solid rgb(200, 200, 200);
+
+}
+
+QWidget#Main QWidget#stkWid QPushButton:hover {
+    /*border: 7px solid rgb(170, 170, 170);*/
+    background-color: rgba(211, 211, 211, 100);
+}
+
+QWidget#Main #btnBack {
+    /*border-image: url("main/resource/images/icon_back.png");*/
+    border: 1px solid rgb(200, 200, 200);
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.6,
+    x2: 0.5,
+    y2: 1,
+    stop: 0 rgb(245, 245, 245),
+    stop: 1 rgb(211, 211, 211));
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+QWidget#Main #btnBack:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+QWidget#Main #btnBack:pressed {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 0.2,
+    x2: 0.5,
+    y2: 0.5,
+    stop: 0 rgb(211, 211, 211),
+    stop: 1 rgb(245, 245, 245));
+}

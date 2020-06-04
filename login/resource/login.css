@@ -1,0 +1,132 @@
+QWidget#Form {
+    /*background-color: rgba(205, 230, 199, 200);*/
+    background-color: white;
+    /*border: 2px solid rgba(0, 0, 0, 120);*/
+}
+
+QWidget#Form QLabel#labUserAvatar {
+    border: 2px solid white;
+    border-radius: 35px;
+}
+
+QWidget#Form QLabel#labLoginError {
+    color: red;
+}
+
+QPushButton#btnMini, QPushButton#btnExit {
+    background: transparent;
+    color: white;
+    /*color: #A6A6A6;*/
+}
+
+QPushButton#btnMini:hover {
+    background: rgba(0, 0, 0, 50);
+    border-style: outset;
+}
+
+QWidget#Form QPushButton#btnExit:hover {
+    background: #FF5439;
+    border-style: outset;
+}
+
+QWidget#Form QPushButton#btnLogin, QPushButton#btnVisitorLogin {
+    background-color: #02B8FA;
+    border-radius: 3px;
+    color: #DEF7FF;
+}
+
+QWidget#Form QPushButton#btnLogin:hover, QPushButton#btnVisitorLogin:hover {
+    background-color: #1FC7FD;
+}
+
+QWidget#Form QPushButton#btnRegister {
+    background: transparent;
+    color: #A6A6A6;
+}
+
+QWidget#Form QPushButton#btnRegister:hover {
+    color: #838383;
+}
+
+QWidget#Form QCheckBox {
+    color: #A6A6A6;
+}
+
+QWidget#Form QCheckBox:hover {
+    color: #838383;
+}
+
+QWidget#Form QLineEdit, QComboBox {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A6A6A6;
+    color: #838383;
+    font-size: 13px;
+}
+
+QWidget#Form QLineEdit:hover, QComboBox:hover {
+    border-bottom: 1px solid #838383;
+}
+
+QWidget#Form QLineEdit:focus, QComboBox:focus {
+    border-bottom: 1px solid #02B8FA;
+}
+
+QWidget#Form QComboBox {
+
+}
+
+QWidget#Form QComboBox:drop-down {
+    width: 32px;
+    border: none;
+}
+
+/*右边添加分割块:宽度,线宽度,样式,颜色*/
+QWidget#Form QComboBox:down-arrow {
+    border-image: url(":/login/images/login_icon_down_arrow_normal.png");
+}
+
+/*箭头样式*/
+
+QWidget#Form QComboBox::down-arrow:hover {
+    border-image: url(":/login/images/login_icon_down_arrow_hover.png");
+}
+
+/*鼠标移入的效果*/
+QWidget#Form QComboBox::down-arrow:on {
+    border-image: url(":/login/images/login_icon_down_arrow_on.png");
+}
+
+/*鼠标点击的效果*/
+/*下拉列表项:字体样式, 背景*/
+QWidget#Form QComboBox QAbstractItemView {
+
+    outline: 0px; /*去掉下拉框虚线*/
+    border: none; /*配合下面背景透明，删除item时就不再显示一个空位了*/
+    background-color: transparent; /*配合上面无边框，删除item时就不再显示一个空位了*/
+}
+
+/*程序中写一个self.comboUserID.setView(QListView())就可以设置下拉列表的样式了*/
+QWidget#Form QComboBox QAbstractItemView::item {
+    min-height: 60px; /*列表高度*/
+    min-width: 60px; /*列表高度*/
+    background-color: rgba(205, 230, 199); /*列表背景色*/
+}
+
+/*下面"!selected","hover","selected"顺序不能变，不然效果不好*/
+QWidget#Form QComboBox QAbstractItemView::item:!selected {
+    border-left: none; /*列表边框宽度,样式,颜色*/
+    background-color: rgba(205, 230, 199); /*滑过当前列表项的背景色*/
+}
+
+QWidget#Form QComboBox QAbstractItemView::item:hover {
+    border-left: none; /*列表边框宽度,样式,颜色*/
+    background-color: rgba(180, 180, 180); /*滑过当前列表项的背景色*/
+}
+
+QWidget#Form QComboBox QAbstractItemView::item:selected {
+    border-left: 3px solid rgba(0, 0, 0, 100); /*列表边框宽度,样式,颜色*/
+    background-color: lightblue; /*滑过当前列表项的背景色*/
+}
+
+

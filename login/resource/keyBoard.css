@@ -1,0 +1,54 @@
+QWidget#Form {
+    background-color: rgb(23, 122, 188);
+}
+
+QWidget#Form QPushButton {
+    background-color: #f5f5f5;
+    border: none; /*这样可以去掉checked状态的风格线*/
+    border-radius: 3px;
+}
+
+QWidget#Form QPushButton#btnClose {
+    color: lightgray;
+    background-color: transparent;
+}
+
+QWidget#Form QPushButton#btnClose:hover {
+    background-color: rgba(255, 0, 0, 80);
+    color: black;
+}
+
+QWidget#Form QPushButton#btnClose:pressed {
+    background-color: rgba(255, 0, 0, 160);
+}
+
+QWidget#Form QPushButton[state='shift']:checked, QWidget#Form QPushButton[state='capsLock']:checked {
+    outline: none;
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 1,
+    x2: 0.5,
+    y2: 0.1,
+    stop: 0 rgba(255, 255, 255, 255),
+    stop: 1 rgba(0, 191, 162, 255));
+}
+
+QWidget#Form QPushButton:hover {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 1,
+    x2: 0.5,
+    y2: 0.1,
+    stop: 0 rgba(0, 191, 162, 255),
+    stop: 1 rgba(255, 255, 255, 255))
+}
+
+QWidget#Form QPushButton:pressed {
+    background-color: qlineargradient(spread:pad,
+    x1: 0.5,
+    y1: 1,
+    x2: 0.5,
+    y2: 0.1,
+    stop: 0 rgba(255, 255, 255, 255),
+    stop: 1 rgba(0, 191, 162, 255))
+}

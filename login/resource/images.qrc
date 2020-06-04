@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="register">
+    <file>images/register_bg.png</file>
+  </qresource>
+  <qresource prefix="login">
+    <file>images/login_icon_password_right_active.png</file>
+    <file>images/login_icon_password_left_hover.png</file>
+    <file>images/login_icon_password_left_normal.png</file>
+    <file>images/login_icon_password_right_hover.png</file>
+    <file>images/login_icon_password_right_normal.png</file>
+    <file>images/login_icon_down_arrow_hover.png</file>
+    <file>images/login_icon_down_arrow_normal.png</file>
+    <file>images/login_icon_down_arrow_on.png</file>
+    <file>images/login_icon_user_avatar.png</file>
+    <file>images/login_icon_login.png</file>
+    <file>images/login_bg.gif</file>
+    <file>images/login_icon_account_hover.png</file>
+    <file>images/login_icon_account_normal.png</file>
+    <file>images/login_icon_password_left_hover.png</file>
+    <file>images/login_icon_password_left_normal.png</file>
+  </qresource>
+</RCC>

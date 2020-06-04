@@ -1,0 +1,18 @@
+/* 背景色通过 QComboBox QAbstractItemView::item 设置 */
+#labItemUserAvatar {
+    border: 1px solid white;
+}
+
+#labItemUserAvatar {
+    border-radius: 25px;
+}
+
+#btnDelItem {
+    background-color: transparent;
+    border: none;
+    color: #838383;
+}
+
+#btnDelItem:hover {
+    color: black;
+}

@@ -1,7 +1,6 @@
 
-/.idea/
-/venv/
-/暂未写进程序的Ui/
+.idea/
+venv/
 /测试/
-/.vscode/
-/__pycache__/
+.vscode/
+__pycache__/

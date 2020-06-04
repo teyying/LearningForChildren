@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="label">
+    <file>images/icon_center.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,40 @@
+/**********************UiCn汉字认读****************************/
+
+QWidget#HanZi > QPushButton {
+    background-color: #02B8FA;
+    border-radius: 5px;
+}
+
+QWidget#HanZi > QPushButton:hover {
+    border-radius: 15px;
+}
+
+QWidget#HanZi > QPushButton:pressed, QCheckBox:pressed {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+QWidget#HanZi QCheckBox:hover {
+    color: gray;
+}
+
+QWidget#HanZi QLabel {
+    background-color: rgba(255, 255, 255, 100);
+}
+
+QWidget#HanZi QScrollArea QWidget QPushButton {
+    background-color: mediumseagreen;
+    font-family: 楷体;
+    font-size: 80px;
+    border-radius: 5px;
+}
+
+QWidget#HanZi QScrollArea QWidget QPushButton:hover {
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+
+QWidget#HanZi QScrollArea QWidget QPushButton:pressed {
+    padding-top: 5px;
+    padding-left: 5px;
+}

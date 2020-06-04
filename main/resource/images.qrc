@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="main">
+    <file>images/icon_movie.png</file>
+    <file>images/icon_max.png</file>
+    <file>images/icon_normal.png</file>
+    <file>images/icon_cn.png</file>
+    <file>images/icon_en.png</file>
+    <file>images/icon_game.png</file>
+    <file>images/icon_math.png</file>
+    <file>images/icon_music.png</file>
+    <file>images/icon_addSkin.png</file>
+    <file>images/icon_avatar.png</file>
+    <file>images/icon_mini.png</file>
+    <file>images/icon_collect.png</file>
+    <file>images/icon_close.png</file>
+    <file>images/icon_shop.png</file>
+    <file>images/logo.png</file>
+    <file>images/icon_skin.png</file>
+  </qresource>
+</RCC>
